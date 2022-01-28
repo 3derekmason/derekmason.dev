@@ -10,7 +10,9 @@
   "author": "Derek Mason",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.16.12",
     "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.7",
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.16",

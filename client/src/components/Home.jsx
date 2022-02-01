@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import treeBackground from "../../public/assets/trees.jpg";
+import logo from "../../public/assets/derekMason.png";
 
 const Home = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -19,16 +20,22 @@ const Home = () => {
           </a>
           <div className={toggleClass} onClick={toggleMenu}></div>
         </header>
-        <img src={treeBackground}></img>
+        <img src={treeBackground} />
         <ul className="social">
           <li style={{ transitionDelay: "0.2s" }}>
-            <a href="#">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/3derekmason/" target="_new">
+              LinkedIn
+            </a>
           </li>
-          <li style={{ transitionDelay: "0.2s" }}>
-            <a href="#">Github</a>
+          <li style={{ transitionDelay: "0.4s" }}>
+            <a href="https://github.com/3derekmason" target="_new">
+              Github
+            </a>
           </li>
-          <li style={{ transitionDelay: "0.2s" }}>
-            <a href="#">Twitter</a>
+          <li style={{ transitionDelay: "0.6s" }}>
+            <a href="https://twitter.com/3derekmason" target="_new">
+              Twitter
+            </a>
           </li>
         </ul>
         <ul className="navigation">

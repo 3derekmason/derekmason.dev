@@ -140,6 +140,15 @@ section .content h2 {
   line-height: 0.55em;
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   font-family: "Satisfy", cursive;
+  animation: landing1 1s;
+}
+@keyframes landing1 {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: rgba(255, 255, 255, 1);
+  }
 }
 
 section .content h2 span {
@@ -152,6 +161,17 @@ section .content h2 span {
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
+  animation: landing2 1s;
+}
+@keyframes landing2 {
+  0% {
+    color: rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, 1);
+  }
 }
 
 section .social {
@@ -264,6 +284,27 @@ section .navigation li a:hover {
   text-transform: lowercase;
 }
 
+.bioText {
+  width: 66vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bioText p a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.25s;
+  animation: fadeIn 1.5s;
+}
+
+.bioText p a:hover {
+  color: #fff;
+  transition: 0.25s;
+}
+
 section.active .aboutContent {
   width: 100%;
   position: relative;
@@ -322,6 +363,26 @@ section.active .aboutContent {
   }
 }
 
+.bioText {
+  width: 66vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bioText p a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.bioText p a:hover {
+  color: #fff;
+  transition: 0.25s;
+}
+
 @media (max-width: 991px) {
   header {
     padding: 20px;
@@ -347,5 +408,8 @@ section.active .aboutContent {
   .myPic {
     width: 50vw;
     height: 50vw;
+  }
+  .bioText {
+    width: 90vw;
   }
 }

@@ -133,31 +133,6 @@ section.active .content {
   transition-delay: 0s;
 }
 
-section.active .aboutContent {
-  position: relative;
-  z-index: 10;
-  text-align: center;
-  transition: 0.5s;
-  transition-delay: 1s;
-  color: #fff;
-  animation: fadeIn 2s;
-}
-@keyframes fadeIn {
-  0% {
-    color: #000;
-    scale: (0);
-    text-shadow: (1px 1px 3px #000);
-  }
-  75% {
-    scale: (0.5);
-    text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.85);
-  }
-  100% {
-    color: #eee;
-    scale: (1);
-  }
-}
-
 section .content h2 {
   position: relative;
   color: #fff;
@@ -267,6 +242,35 @@ section .navigation li a:hover {
   color: #fff;
   letter-spacing: 6px;
   text-transform: lowercase;
+}
+
+section.active .aboutContent {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+  transition-delay: 1s;
+  color: #fff;
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  0% {
+    color: #000;
+    scale: (0);
+    text-shadow: (1px 1px 3px #000);
+  }
+  75% {
+    scale: (0.5);
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.85);
+  }
+  100% {
+    color: #eee;
+    scale: (1);
+  }
 }
 
 @media (max-width: 991px) {

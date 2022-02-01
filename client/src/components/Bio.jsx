@@ -11,7 +11,7 @@ const AboutMe = () => {
       <section className="active">
         <header>
           <a href="#" className="logo">
-            Derek Mason
+            About Me
           </a>
           <div
             className="homeBtn"
@@ -23,14 +23,26 @@ const AboutMe = () => {
             HOME
           </div>
         </header>
-        <h2>About Page</h2>
         <img src={treeBackground} />
         <div className="glass"></div>
         <div className="aboutContent">
-          <h2>Full-Stack Software Engineer</h2>
-          <span>
-            <h4>Denver, CO</h4>
-          </span>
+          <div className="bioTop">
+            <div className="myPic"></div>
+            <div style={{ textAlign: "center" }}>
+              <h2>Full-Stack Software Engineer</h2>
+              <h4>Denver, CO</h4>
+            </div>
+          </div>
+          <div className="bioText">
+            <p>
+              Yada yada blah blah blah software is interesting and I like
+              helping people yada yada yada
+            </p>
+            <p>
+              Yada yada blah blah blah software is interesting and I like
+              helping people yada yada yada
+            </p>
+          </div>
         </div>
       </section>
     </div>

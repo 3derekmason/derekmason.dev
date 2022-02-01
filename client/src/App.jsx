@@ -2,7 +2,9 @@ import React, { useState, useEffect, useRef } from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 
+import AppContext from "./context.js";
 import Home from "./components/Home.jsx";
+import AboutMe from "./components/Bio.jsx";
 
 const theme = createTheme({
   palette: {
@@ -16,11 +18,21 @@ const theme = createTheme({
 });
 
 const App = () => {
-  const [currentView, setCurrentview] = useState("home");
+  const [currentView, setCurrentView] = useState(<Home />);
 
-  if (currentView === "home") {
-    return <Home />;
-  }
+  return (
+    <AppContext.Provider value={{ currentView, setCurrentView }}>
+      {currentView}
+    </AppContext.Provider>
+  );
+  // if (currentView === "home") return <Home />;
+  // if (currentView === "about") return <AboutMe />;
+  // if (currentView === "projects") {
+  //   return <Home />;
+  // }
+  // if (currentView === "resume") {
+  //   return <Home />;
+  // }
 };
 
 export default App;

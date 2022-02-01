@@ -111,6 +111,12 @@ section img {
   transition: 0.5s;
   transition-delay: 1s;
 }
+section.active .glass {
+  width: 100%;
+  backdrop-filter: blur(20px);
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.5);
+  transition-delay: 0s;
+}
 
 section .content {
   position: relative;
@@ -118,6 +124,13 @@ section .content {
   text-align: center;
   transition: 0.5s;
   transition-delay: 1s;
+}
+
+section.active .content {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateX(-200px);
+  transition-delay: 0s;
 }
 
 section .content h2 {

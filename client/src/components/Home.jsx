@@ -4,7 +4,7 @@ import treeBackground from "../../public/assets/trees.jpg";
 
 const Home = () => {
   const [menuToggle, setMenuToggle] = useState(false);
-
+  const sectionClass = menuToggle ? "active" : "";
   const toggleClass = menuToggle ? "menuToggleActive" : "menuToggle";
   const toggleMenu = () => {
     setMenuToggle(!menuToggle);
@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <div className="body">
-      <section>
+      <section className={sectionClass}>
         <header>
           <a href="#" className="logo">
             Derek Mason

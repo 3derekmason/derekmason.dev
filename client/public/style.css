@@ -140,6 +140,15 @@ section .content h2 {
   line-height: 0.55em;
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   font-family: "Satisfy", cursive;
+  animation: landing1 1s;
+}
+@keyframes landing1 {
+  0% {
+    color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: rgba(255, 255, 255, 1);
+  }
 }
 
 section .content h2 span {
@@ -152,6 +161,17 @@ section .content h2 span {
   text-shadow: 0 5px 5px rgba(0, 0, 0, 0);
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
+  animation: landing2 1s;
+}
+@keyframes landing2 {
+  0% {
+    color: rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, 0);
+  }
+  100% {
+    color: rgba(0, 0, 0, 0);
+    background: rgba(255, 255, 255, 1);
+  }
 }
 
 section .social {
@@ -244,6 +264,125 @@ section .navigation li a:hover {
   text-transform: lowercase;
 }
 
+.homeBtn {
+  content: "Home";
+  border-radius: 4px;
+  position: absolute;
+  right: 45px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 14px;
+  padding: 2px 5px;
+  background: #fff;
+  color: #212121;
+}
+.homeBtn:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #212121;
+  text-transform: lowercase;
+}
+
+.bioText {
+  width: 66vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bioText p a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.25s;
+  animation: fadeIn 1.5s;
+}
+
+.bioText p a:hover {
+  color: #fff;
+  transition: 0.25s;
+}
+
+section.active .aboutContent {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s;
+  transition-delay: 1s;
+  color: #fff;
+  animation: fadeIn 1s;
+}
+@keyframes fadeIn {
+  0% {
+    color: #000;
+    scale: (0);
+    text-shadow: (1px 1px 3px #000);
+  }
+  75% {
+    scale: (0.5);
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.85);
+  }
+  100% {
+    color: #eee;
+    scale: (1);
+  }
+}
+
+.bioTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.myPic {
+  width: 12vw;
+  height: 12vw;
+  background: url("./assets/kace.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  animation: photoMation 0.5s;
+}
+@keyframes photoMation {
+  0% {
+    scale: (0.25);
+    transform: translateY(-250%);
+  }
+  100% {
+    scale: (1);
+    transform: translateY(0%);
+  }
+}
+
+.bioText {
+  width: 66vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.bioText p a {
+  color: #ccc;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.bioText p a:hover {
+  color: #fff;
+  transition: 0.25s;
+}
+
 @media (max-width: 991px) {
   header {
     padding: 20px;
@@ -262,5 +401,15 @@ section .navigation li a:hover {
   }
   section .navigation li a {
     width: 66vw;
+  }
+  .bioTop {
+    flex-direction: column;
+  }
+  .myPic {
+    width: 50vw;
+    height: 50vw;
+  }
+  .bioText {
+    width: 90vw;
   }
 }

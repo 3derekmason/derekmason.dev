@@ -40,13 +40,17 @@ const Home = () => {
         </ul>
         <ul className="navigation">
           <li style={{ transitionDelay: "0.2s" }}>
-            <a href="#">About Me</a>
+            <a href="#" onClick={toggleMenu}>
+              About Me
+            </a>
           </li>
           <li style={{ transitionDelay: "0.4s" }}>
-            <a href="#">Resume</a>
+            <a href="#" onClick={toggleMenu}>
+              Resume
+            </a>
           </li>
           <li style={{ transitionDelay: "0.6s" }}>
-            <a href="#">Projects</a>
+            <a onClick={toggleMenu}>Projects</a>
           </li>
         </ul>
         <div className="glass"></div>

@@ -20,6 +20,13 @@ const Home = () => {
           <div className={toggleClass} onClick={toggleMenu}></div>
         </header>
         <img src={treeBackground}></img>
+        <div className="glass"></div>
+        <div class="content">
+          <h2>
+            Hi there! <br />
+            <span>My name is Derek.</span>
+          </h2>
+        </div>
       </section>
     </div>
   );

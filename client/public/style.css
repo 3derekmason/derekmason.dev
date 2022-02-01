@@ -98,3 +98,45 @@ section img {
   height: 100%;
   object-fit: cover;
 }
+
+.glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40%;
+  height: 100%;
+  z-index: 1;
+  backdrop-filter: blur(15px);
+  box-shadow: 10px 0 15px rgba(0, 0, 0, 0.1);
+  transition: 0.5s;
+  transition-delay: 1s;
+}
+
+section .content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  transition: 0.5s;
+  transition-delay: 1s;
+}
+
+section .content h2 {
+  position: relative;
+  color: #fff;
+  font-size: 10vw;
+  line-height: 0.55em;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Satisfy", cursive;
+}
+
+section .content h2 span {
+  font-size: 0.2em;
+  font-weight: 300;
+  letter-spacing: 5px;
+  background: #fff;
+  color: #212121;
+  padding: 0 10px;
+  text-shadow: 0 5px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}

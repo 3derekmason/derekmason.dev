@@ -26,14 +26,11 @@ const AboutMe = () => {
         <h2>About Page</h2>
         <img src={treeBackground} />
         <div className="glass"></div>
-        <div
-          className="aboutContent"
-          style={{ zIndex: "10", color: "#ffffff" }}
-        >
-          <h2>
-            Full-Stack Software Engineer
-            <span>Denver, CO</span>
-          </h2>
+        <div className="aboutContent">
+          <h2>Full-Stack Software Engineer</h2>
+          <span>
+            <h4>Denver, CO</h4>
+          </span>
         </div>
       </section>
     </div>

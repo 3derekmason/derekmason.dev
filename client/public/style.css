@@ -133,6 +133,31 @@ section.active .content {
   transition-delay: 0s;
 }
 
+section.active .aboutContent {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  transition: 0.5s;
+  transition-delay: 1s;
+  color: #fff;
+  animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% {
+    color: #000;
+    scale: (0);
+    text-shadow: (1px 1px 3px #000);
+  }
+  75% {
+    scale: (0.5);
+    text-shadow: 1px 1px 15px rgba(255, 255, 255, 0.85);
+  }
+  100% {
+    color: #eee;
+    scale: (1);
+  }
+}
+
 section .content h2 {
   position: relative;
   color: #fff;

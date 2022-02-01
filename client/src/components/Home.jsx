@@ -1,16 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 
 import treeBackground from "../../public/assets/trees.jpg";
 import logo from "../../public/assets/derekMason.png";
 
+import AppContext from "../context.js";
+import AboutMe from "./Bio.jsx";
+
 const Home = () => {
+  const { currentView, setCurrentView } = useContext(AppContext);
   const [menuToggle, setMenuToggle] = useState(false);
   const sectionClass = menuToggle ? "active" : "";
   const toggleClass = menuToggle ? "menuToggleActive" : "menuToggle";
   const toggleMenu = () => {
     setMenuToggle(!menuToggle);
   };
-
+  const handleAbout = () => {
+    setMenuToggle(false);
+    setCurrentView(<AboutMe />);
+  };
   return (
     <div className="body">
       <section className={sectionClass}>
@@ -40,7 +47,7 @@ const Home = () => {
         </ul>
         <ul className="navigation">
           <li style={{ transitionDelay: "0.2s" }}>
-            <a href="#" onClick={toggleMenu}>
+            <a href="#" onClick={handleAbout}>
               About Me
             </a>
           </li>

@@ -16,11 +16,11 @@ const theme = createTheme({
 });
 
 const App = () => {
-  return (
-    <div>
-      <Home />
-    </div>
-  );
+  const [currentView, setCurrentview] = useState("home");
+
+  if (currentView === "home") {
+    return <Home />;
+  }
 };
 
 export default App;

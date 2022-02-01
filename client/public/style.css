@@ -230,8 +230,7 @@ section .navigation li a {
   text-decoration: none;
   font-weight: 300;
   text-transform: uppercase;
-  width: 15vw;
-  min-width: fit-content;
+  width: 20vw;
   border-radius: 4px;
   background: #fff;
   padding: 4px 10px;
@@ -260,5 +259,8 @@ section .navigation li a:hover {
     font-size: 0.25em;
     letter-spacing: 2px;
     padding: 0 5px;
+  }
+  section .navigation li a {
+    width: 66vw;
   }
 }

@@ -40,10 +40,10 @@ const Home = () => {
         </ul>
         <ul className="navigation">
           <li style={{ transitionDelay: "0.2s" }}>
-            <a href="#">Home</a>
+            <a href="#">About Me</a>
           </li>
           <li style={{ transitionDelay: "0.4s" }}>
-            <a href="#">About Me</a>
+            <a href="#">Resume</a>
           </li>
           <li style={{ transitionDelay: "0.6s" }}>
             <a href="#">Projects</a>

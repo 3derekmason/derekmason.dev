@@ -244,6 +244,26 @@ section .navigation li a:hover {
   text-transform: lowercase;
 }
 
+.homeBtn {
+  content: "Home";
+  border-radius: 4px;
+  position: absolute;
+  right: 45px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 14px;
+  padding: 2px 5px;
+  background: #fff;
+  color: #212121;
+}
+.homeBtn:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #212121;
+  text-transform: lowercase;
+}
+
 section.active .aboutContent {
   width: 100%;
   position: relative;
@@ -273,6 +293,35 @@ section.active .aboutContent {
   }
 }
 
+.bioTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.myPic {
+  width: 12vw;
+  height: 12vw;
+  background: url("./assets/kace.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  animation: photoMation 0.5s;
+}
+@keyframes photoMation {
+  0% {
+    scale: (0.25);
+    transform: translateY(-250%);
+  }
+  100% {
+    scale: (1);
+    transform: translateY(0%);
+  }
+}
+
 @media (max-width: 991px) {
   header {
     padding: 20px;
@@ -291,5 +340,12 @@ section.active .aboutContent {
   }
   section .navigation li a {
     width: 66vw;
+  }
+  .bioTop {
+    flex-direction: column;
+  }
+  .myPic {
+    width: 50vw;
+    height: 50vw;
   }
 }

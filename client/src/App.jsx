@@ -2,6 +2,8 @@ import React, { useState, useEffect, useRef } from "react";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Typography from "@mui/material/Typography";
 
+import Home from "./components/Home.jsx";
+
 const theme = createTheme({
   palette: {
     primary: {
@@ -18,7 +20,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <div>
         <Typography color="primary" element="h1" variant="h1">
-          Coming soon
+          <Home />
         </Typography>
       </div>
     </ThemeProvider>

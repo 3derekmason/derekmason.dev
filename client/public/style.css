@@ -153,3 +153,112 @@ section .content h2 span {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
 }
+
+section .social {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  display: flex;
+  z-index: 100;
+}
+
+section .social li {
+  list-style: none;
+  margin: 5px;
+  padding: 0 6px;
+  border-radius: 4px;
+  background: #fff;
+  transition: 0.5s;
+  /* transition-delay: calc(0.2s * var(--i)); */
+}
+
+section.active .social li {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(100px);
+}
+
+section .social li a {
+  color: #212121;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 2px;
+  font-weight: 100;
+  font-size: 12px;
+  text-transform: uppercase;
+  transition: 0.25s;
+}
+
+section .social li:hover {
+  background: #212121;
+  transition: 0.25s;
+  text-transform: lowercase;
+}
+section .social li a:hover {
+  color: #fff;
+}
+
+section .navigation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+}
+
+section .navigation li {
+  list-style: none;
+  text-align: center;
+  margin: 15px 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  transform: translateX(200px);
+}
+
+section.active .navigation li {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0px);
+  /* transition-delay: calc(0.2s * var(--i)); */
+}
+
+section .navigation li a {
+  color: #212121;
+  font-size: 1.5em;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  width: 15vw;
+  min-width: fit-content;
+  border-radius: 4px;
+  background: #fff;
+  padding: 4px 10px;
+  display: inline-block;
+}
+
+section .navigation li a:hover {
+  background: #212121;
+  color: #fff;
+  letter-spacing: 6px;
+  text-transform: lowercase;
+}
+
+@media (max-width: 991px) {
+  header {
+    padding: 20px;
+  }
+  section .social {
+    bottom: 20px;
+    right: 20px;
+  }
+  .glass {
+    width: 50%;
+  }
+  section .content h2 span {
+    font-size: 0.25em;
+    letter-spacing: 2px;
+    padding: 0 5px;
+  }
+}

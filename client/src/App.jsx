@@ -17,13 +17,9 @@ const theme = createTheme({
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <div>
-        <Typography color="primary" element="h1" variant="h1">
-          <Home />
-        </Typography>
-      </div>
-    </ThemeProvider>
+    <div>
+      <Home />
+    </div>
   );
 };
 

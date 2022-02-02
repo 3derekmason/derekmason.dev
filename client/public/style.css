@@ -442,10 +442,7 @@ section.active .aboutContent {
   gap: 2px;
   animation: resHead 1s;
 }
-.resumeHeader a {
-  text-decoration: none;
-  color: #fff;
-}
+
 @keyframes resHead {
   0% {
     transform: translateY(-500px);
@@ -547,14 +544,27 @@ section.active .aboutContent {
   }
 }
 
-.resumeFooter a {
-  color: #aaa;
+.resumeFooter {
   margin-bottom: 24px;
   text-decoration: none;
 }
 
-.resumeFooter a:hover {
+.resumeContent a {
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.resumeContent a:hover {
   color: #fff;
+  transition: 0.2s;
+}
+.resumeHeader a {
+  text-decoration: none;
+  color: #fff;
+}
+.resumeHeader a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 991px) {

@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <div className="body">
       <section className="active">
-        <header>
+        <header id="top">
           <a href="#" className="logo">
             Resume
           </a>
@@ -30,7 +30,7 @@ const Resume = () => {
         <img src={treeBackground} />
         <div className="glass"></div>
         <div className="resumeContent">
-          <div className="resumeHeader" id="top">
+          <div className="resumeHeader">
             <Typography element="h3" variant="h4">
               Derek Mason
             </Typography>
@@ -128,7 +128,9 @@ const Resume = () => {
                   variant="body1"
                   style={{ color: "#bbb", textTransform: "uppercase" }}
                 >
-                  Atelier System Design
+                  <a href="https://github.com/HydraSDC/qAndAPI" target="_blank">
+                    Atelier System Design
+                  </a>
                 </Typography>
                 <Typography variant="caption">
                   <em>
@@ -166,7 +168,12 @@ const Resume = () => {
                   variant="body1"
                   style={{ color: "#bbb", textTransform: "uppercase" }}
                 >
-                  Help Me Out
+                  <a
+                    href="https://github.com/OceansSeven/HelpMeOut"
+                    target="_blank"
+                  >
+                    Help Me Out
+                  </a>
                 </Typography>
                 <Typography variant="caption">
                   <em>
@@ -203,7 +210,9 @@ const Resume = () => {
                   variant="body1"
                   style={{ color: "#bbb", textTransform: "uppercase" }}
                 >
-                  Island Walk
+                  <a href="https://github.com/IslandBois/FEC" target="_blank">
+                    Island Walk
+                  </a>
                 </Typography>
                 <Typography variant="caption">
                   <em>UX/UI modernization of a retail website</em>
@@ -251,7 +260,9 @@ const Resume = () => {
                 }}
               >
                 <Typography variant="BUTTON" style={{ color: "#bbb" }}>
-                  SteMVP
+                  <a href="https://stemvp.herokuapp.com/" targe="_blank">
+                    SteMVP
+                  </a>
                 </Typography>{" "}
                 <Typography variant="caption">
                   A full scale application for ECE Instructors made in a two day
@@ -266,7 +277,12 @@ const Resume = () => {
                 }}
               >
                 <Typography variant="BUTTON" style={{ color: "#bbb" }}>
-                  MyTrainingLogApp
+                  <a
+                    href="https://mytraininglogapp.herokuapp.com/"
+                    target="_blank"
+                  >
+                    MyTrainingLogApp
+                  </a>
                 </Typography>{" "}
                 <Typography variant="caption">
                   A full-stack MERN application for logging user workout stats
@@ -300,8 +316,8 @@ const Resume = () => {
                 }}
               >
                 <Typography
-                  variant="caption"
-                  style={{ color: "#eee", textTransform: "uppercase" }}
+                  variant="subtitle1"
+                  style={{ color: "#fff", textTransform: "uppercase" }}
                 >
                   Early Childhood Gym Instructor{" "}
                   <em>(Bright Horizons, Loveland CO)</em>
@@ -310,11 +326,11 @@ const Resume = () => {
                   <em>2019 - 2021</em>
                 </Typography>
               </div>
-              <Typography variant="body2">
+              <Typography variant="caption">
                 Designed a curriculum of age appropriate activities for groups
                 (ages 2-6) that encouraged physical and mental development.
               </Typography>
-              <Typography variant="body2">
+              <Typography variant="caption">
                 Spearheaded 5 weekly lesson plans with a recyclable structure so
                 that curriculum could easily be followed by other teachers.
               </Typography>
@@ -331,8 +347,8 @@ const Resume = () => {
                 }}
               >
                 <Typography
-                  variant="caption"
-                  style={{ color: "#eee", textTransform: "uppercase" }}
+                  variant="subtitle1"
+                  style={{ color: "#fff", textTransform: "uppercase" }}
                 >
                   Certified Personal Trainer{" "}
                   <em>(Genesis Health Clubs, Fort Collins CO)</em>
@@ -341,12 +357,12 @@ const Resume = () => {
                   <em>2020 - 2021</em>
                 </Typography>
               </div>
-              <Typography variant="body2">
+              <Typography variant="caption">
                 Created safe and effective exercise programs tailored
                 individually for clients (ages 16 - 70) that helped push each
                 towards their individual goals.
               </Typography>
-              <Typography variant="body2">
+              <Typography variant="caption">
                 Performed fitness assessments to gauge current fitness levels
                 and discussed desired training outcomes of new gym members, as
                 well as outlined programs/strategies to get them there.
@@ -364,8 +380,8 @@ const Resume = () => {
                 }}
               >
                 <Typography
-                  variant="caption"
-                  style={{ color: "#eee", textTransform: "uppercase" }}
+                  variant="subtitle1"
+                  style={{ color: "#fff", textTransform: "uppercase" }}
                 >
                   Preschool Teacher{" "}
                   <em>(Bright Horizons, Loveland/Fort Collins CO)</em>
@@ -374,7 +390,7 @@ const Resume = () => {
                   <em>2017 - 2019</em>
                 </Typography>
               </div>
-              <Typography variant="body2">
+              <Typography variant="caption">
                 Inspired young classes of 12 - 28 three and four year olds by
                 leading them through age appropriate activities and lessons that
                 pushed creative thinking and crucial development

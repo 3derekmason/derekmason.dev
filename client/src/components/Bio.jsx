@@ -83,7 +83,7 @@ const AboutMe = () => {
             <a href="https://www.github.com/3derekmason" target="_blank">
               <GitHubIcon />
             </a>
-            <a href="https://www.twitter/3derekmason/" target="_blank">
+            <a href="https://www.twitter.com/3derekmason/" target="_blank">
               <TwitterIcon />
             </a>
           </div>

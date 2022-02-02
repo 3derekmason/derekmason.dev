@@ -597,4 +597,16 @@ section.active .aboutContent {
   .bioText {
     width: 90vw;
   }
+  .techSkills {
+    width: 90vw;
+  }
+  .resCard {
+    width: 90vw;
+  }
+  .expCard {
+    width: 90vw;
+  }
+  .edCard {
+    width: 90vw;
+  }
 }

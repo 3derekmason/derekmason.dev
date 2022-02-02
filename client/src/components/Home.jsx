@@ -6,6 +6,7 @@ import logo from "../../public/assets/derekMason.png";
 import AppContext from "../context.js";
 import AboutMe from "./Bio.jsx";
 import Resume from "./Resume.jsx";
+import Projects from "./Projects.jsx";
 
 const Home = () => {
   const { currentView, setCurrentView } = useContext(AppContext);
@@ -22,6 +23,10 @@ const Home = () => {
   const handleResume = () => {
     setMenuToggle(false);
     setCurrentView(<Resume />);
+  };
+  const handleProjects = () => {
+    setMenuToggle(false);
+    setCurrentView(<Projects />);
   };
   return (
     <div className="body">
@@ -62,7 +67,7 @@ const Home = () => {
             </a>
           </li>
           <li style={{ transitionDelay: "0.6s" }}>
-            <a onClick={toggleMenu}>Projects</a>
+            <a onClick={handleProjects}>Projects</a>
           </li>
         </ul>
         <div className="glass"></div>

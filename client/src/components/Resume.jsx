@@ -90,7 +90,7 @@ const Resume = () => {
             <Typography variant="body2">
               Testing/Deployment |
               <Typography variant="caption" style={{ marginLeft: "2px" }}>
-                Chai, Cypress, Jest, Mocha, AWS, Docker, Heroku
+                Chai, Cypress, Jest, K6, Mocha, AWS, Docker, Heroku
               </Typography>
             </Typography>
             <Typography variant="body2">
@@ -114,6 +114,80 @@ const Resume = () => {
             >
               Software Engineering
             </Typography>
+            <div className="resCard">
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  gap: "4px",
+                  marginLeft: "4px",
+                }}
+              >
+                <Typography
+                  variant="body1"
+                  style={{ color: "#bbb", textTransform: "uppercase" }}
+                >
+                  Atelier System Design
+                </Typography>
+                <Typography variant="caption">
+                  <em>
+                    Full backend system design using MongoDB for 10+ million
+                    entries for a retail website
+                  </em>
+                </Typography>
+              </div>
+              <Typography variant="body2">
+                Replaced API of an e-commerce website to handle increase in
+                traffic following a Front End revamp
+              </Typography>
+              <Typography variant="body2">
+                Reduced latency from 300ms to under 10ms by strategically
+                indexing database collections and refactoring queries for
+                optimization
+              </Typography>
+              <Typography variant="body2">
+                Load tested with K6 averaging a response time under 50ms for
+                1000 VUs
+              </Typography>
+            </div>
+            <div className="resCard">
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  gap: "4px",
+                  marginLeft: "4px",
+                }}
+              >
+                <Typography
+                  variant="body1"
+                  style={{ color: "#bbb", textTransform: "uppercase" }}
+                >
+                  Help Me Out
+                </Typography>
+                <Typography variant="caption">
+                  <em>
+                    Full scale production of a community centered handyman app
+                  </em>
+                </Typography>
+              </div>
+              <Typography variant="body2">
+                Collaborated with seven team members to design and build an app
+                according to Client specs
+              </Typography>
+              <Typography variant="body2">
+                Handled user authentication with PassportJS, developed a
+                mobile-first responsive UI, and implemented an in-app messaging
+                server using Socket.io
+              </Typography>
+              <Typography variant="body2">
+                Deployed app using separate T2 micro instances for main server
+                and chat server to optimize scalability
+              </Typography>
+            </div>
           </div>
           <div className="experience"></div>
           <div className="education"></div>

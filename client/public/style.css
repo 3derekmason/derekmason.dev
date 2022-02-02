@@ -400,6 +400,25 @@ section.active .aboutContent {
   margin-bottom: 40px;
 }
 
+.socialBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.socialBtns a {
+  font-size: 2.5em;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.socialBtns a:hover {
+  color: #212121;
+}
+
 @media (max-width: 991px) {
   header {
     padding: 20px;

@@ -1,6 +1,8 @@
 import React, { useState, useContext } from "react";
 import treeBackground from "../../public/assets/trees.jpg";
-import { LinkedInIcon, GitHubIcon, TwitterIcon } from "@mui/icons-material";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import AppContext from "../context.js";
 import Home from "./Home.jsx";
 
@@ -75,9 +77,15 @@ const AboutMe = () => {
             </p>
           </div>
           <div className="socialBtns">
-            <LinkedInIcon />
-            <GitHubIcon />
-            <TwitterIcon />
+            <a href="https://www.linkedin.com/in/3derekmason/" target="_blank">
+              <LinkedInIcon />
+            </a>
+            <a href="https://www.github.com/3derekmason" target="_blank">
+              <GitHubIcon />
+            </a>
+            <a href="https://www.twitter/3derekmason/" target="_blank">
+              <TwitterIcon />
+            </a>
           </div>
         </div>
       </section>

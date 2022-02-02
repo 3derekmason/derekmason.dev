@@ -36,7 +36,19 @@ header .logo {
   text-decoration: none;
   text-shadow: 2px 2px rgba(0, 0, 0, 0.1);
   transition: 0.5s;
+  animation: logoFade 2s;
 }
+@keyframes logoFade {
+  0% {
+    color: rgba(255, 255, 255, 0);
+    font-size: 0.5em;
+  }
+  100% {
+    color: #fff;
+    font-size: 2;
+  }
+}
+
 header .menuToggle {
   position: relative;
   width: 40px;
@@ -320,7 +332,7 @@ section.active .aboutContent {
 }
 @keyframes fadeIn {
   0% {
-    color: #000;
+    color: rgba(255, 255, 255, 0);
     scale: (0);
     text-shadow: (1px 1px 3px #000);
   }
@@ -329,7 +341,7 @@ section.active .aboutContent {
     text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.85);
   }
   100% {
-    color: #eee;
+    color: #fff;
     scale: (1);
   }
 }
@@ -340,6 +352,7 @@ section.active .aboutContent {
   align-items: center;
   gap: 40px;
   margin-bottom: 40px;
+  margin-top: 120px;
 }
 
 .myPic {
@@ -370,17 +383,40 @@ section.active .aboutContent {
   align-items: center;
   flex-direction: column;
   gap: 8px;
+  font-size: 1em;
+  margin-bottom: 40px;
 }
 
 .bioText p a {
   color: #ccc;
   text-decoration: none;
+  font-size: 20px;
   transition: 0.25s;
 }
 
 .bioText p a:hover {
   color: #fff;
   transition: 0.25s;
+  margin-bottom: 40px;
+}
+
+.socialBtns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.socialBtns a {
+  font-size: 2.5em;
+  color: #fff;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.socialBtns a:hover {
+  color: #212121;
 }
 
 @media (max-width: 991px) {
@@ -408,6 +444,7 @@ section.active .aboutContent {
   .myPic {
     width: 50vw;
     height: 50vw;
+    margin-top: 80px;
   }
   .bioText {
     width: 90vw;

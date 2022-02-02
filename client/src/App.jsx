@@ -25,14 +25,6 @@ const App = () => {
       {currentView}
     </AppContext.Provider>
   );
-  // if (currentView === "home") return <Home />;
-  // if (currentView === "about") return <AboutMe />;
-  // if (currentView === "projects") {
-  //   return <Home />;
-  // }
-  // if (currentView === "resume") {
-  //   return <Home />;
-  // }
 };
 
 export default App;

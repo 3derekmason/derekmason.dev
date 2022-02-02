@@ -6,6 +6,7 @@ import AppContext from "../context.js";
 import Home from "./Home.jsx";
 import ProjectCard from "./ProjectCard.jsx";
 import projectData from "./projectData.js";
+import { Grid } from "@mui/material";
 
 const Projects = () => {
   const { currentView, setCurrentView } = useContext(AppContext);
@@ -29,9 +30,15 @@ const Projects = () => {
         <img src={treeBackground} />
         <div className="glass"></div>
         <div className="projectContent">
-          {projectData?.map((project, i) => {
-            return <h2 key={i}>{project.title}</h2>;
-          })}
+          <Grid container spacing={4}>
+            {projectData?.map((project, i) => {
+              return (
+                <Grid item xs={6} key={i}>
+                  <ProjectCard project={project} />
+                </Grid>
+              );
+            })}
+          </Grid>
         </div>
       </section>
     </div>

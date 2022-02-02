@@ -419,6 +419,41 @@ section.active .aboutContent {
   color: #212121;
 }
 
+.resumeContent {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  transition: 0.5s;
+  transition-delay: 1s;
+  color: #fff;
+}
+
+.resumeHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+  animation: resHead 1s;
+}
+.resumeHeader a {
+  text-decoration: none;
+  color: #fff;
+}
+@keyframes resHead {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
 @media (max-width: 991px) {
   header {
     padding: 20px;

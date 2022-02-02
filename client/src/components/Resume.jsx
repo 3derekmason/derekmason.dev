@@ -188,6 +188,91 @@ const Resume = () => {
                 and chat server to optimize scalability
               </Typography>
             </div>
+            <div className="resCard">
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  gap: "4px",
+                  marginLeft: "4px",
+                }}
+              >
+                <Typography
+                  variant="body1"
+                  style={{ color: "#bbb", textTransform: "uppercase" }}
+                >
+                  Island Walk
+                </Typography>
+                <Typography variant="caption">
+                  <em>UX/UI modernization of a retail website</em>
+                </Typography>
+              </div>
+              <Typography variant="body2">
+                Redesigned and implemented a ratings and reviews section to show
+                off product information
+              </Typography>
+              <Typography variant="body2">
+                Coordinated with team members to determine the most efficient
+                way to reuse and connect React components
+              </Typography>
+              <Typography variant="body2">
+                Utilized Lighthouse testing to bring performance scores from 50
+                to 90, with accessibility, best practices, and SEO scores of 100
+              </Typography>
+            </div>
+            <div className="resCard">
+              <div
+                style={{
+                  width: "100%",
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  gap: "4px",
+                  marginLeft: "4px",
+                }}
+              >
+                <Typography
+                  variant="caption"
+                  style={{ color: "#fff", textTransform: "uppercase" }}
+                >
+                  HONERABLE MENTION
+                </Typography>
+                <Typography variant="caption">
+                  <em>Solo Personal Projects</em>
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <Typography variant="BUTTON" style={{ color: "#bbb" }}>
+                  SteMVP
+                </Typography>{" "}
+                <Typography variant="caption">
+                  A full scale application for ECE Instructors made in a two day
+                  timebox with React and PostgreSQL
+                </Typography>
+              </div>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                }}
+              >
+                <Typography variant="BUTTON" style={{ color: "#bbb" }}>
+                  MyTrainingLogApp
+                </Typography>{" "}
+                <Typography variant="caption">
+                  A full-stack MERN application for logging user workout stats
+                </Typography>
+              </div>
+            </div>
           </div>
           <div className="experience"></div>
           <div className="education"></div>

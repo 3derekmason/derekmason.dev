@@ -454,6 +454,15 @@ section.active .aboutContent {
   }
 }
 
+.techSkills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+}
+
 @media (max-width: 991px) {
   header {
     padding: 20px;

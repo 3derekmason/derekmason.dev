@@ -34,7 +34,7 @@ const Resume = () => {
             <Typography element="h3" variant="h4">
               Derek Mason
             </Typography>
-            <Typography element="h4" variant="subtitle1">
+            <Typography element="h4" variant="caption">
               Denver, CO |{" "}
               <a href="mailto:3derekmason@gmail.com">3derekmason@gmail.com</a> |{" "}
               <a href="tel:970-551-9044">970-551-9044</a>
@@ -59,8 +59,62 @@ const Resume = () => {
               </a>
             </Typography>
           </div>
-          <div className="techSkills"></div>
-          <div className="softwareEngineering"></div>
+          <div className="techSkills">
+            <Typography
+              variant="h5"
+              style={{
+                width: "66%",
+                borderBottom: "1px solid #fff",
+                textAlign: "center",
+                textTransform: "uppercase",
+                marginBottom: "2px",
+                letterSpacing: "2px",
+              }}
+            >
+              Technical Skills
+            </Typography>
+            <Typography variant="body2">
+              Front End |
+              <Typography variant="caption" style={{ marginLeft: "2px" }}>
+                JavaScript, NextJS, React, React Router, Redux, Vue, HTML5,
+                CSS3, MaterialUI, ThemeUI
+              </Typography>
+            </Typography>
+            <Typography variant="body2">
+              Back End |
+              <Typography variant="caption" style={{ marginLeft: "2px" }}>
+                Express, GraphQL, NodeJS, MongoDB, MySQL, PostgreSQL, RESTful
+                API Development
+              </Typography>
+            </Typography>
+            <Typography variant="body2">
+              Testing/Deployment |
+              <Typography variant="caption" style={{ marginLeft: "2px" }}>
+                Chai, Cypress, Jest, Mocha, AWS, Docker, Heroku
+              </Typography>
+            </Typography>
+            <Typography variant="body2">
+              Development Tools |
+              <Typography variant="caption" style={{ marginLeft: "2px" }}>
+                Babel, ESLint, Git, npm, Postman, Webpack
+              </Typography>
+            </Typography>
+          </div>
+          <div className="softwareEngineering">
+            <Typography
+              variant="h5"
+              style={{
+                width: "66%",
+                borderBottom: "1px solid #fff",
+                textAlign: "center",
+                textTransform: "uppercase",
+                marginBottom: "2px",
+                letterSpacing: "2px",
+              }}
+            >
+              Software Engineering
+            </Typography>
+          </div>
           <div className="experience"></div>
           <div className="education"></div>
           <div className="resumeFooter"></div>

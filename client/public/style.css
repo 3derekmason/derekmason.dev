@@ -462,6 +462,7 @@ section.active .aboutContent {
   align-items: center;
   flex-direction: column;
   gap: 4px;
+  animation: enterStageLeft 1.2s;
 }
 
 .softwareEngineering {
@@ -471,6 +472,7 @@ section.active .aboutContent {
   align-items: center;
   flex-direction: column;
   gap: 4px;
+  animation: enterStageRight 1.4s;
 }
 
 .resCard {
@@ -495,6 +497,7 @@ section.active .aboutContent {
   align-items: center;
   flex-direction: column;
   gap: 4px;
+  animation: enterStageLeft 1.6s;
 }
 
 .expCard {
@@ -517,6 +520,7 @@ section.active .aboutContent {
   align-items: center;
   flex-direction: column;
   gap: 4px;
+  animation: enterStageRight 1.8s;
 }
 
 .edCard {
@@ -524,6 +528,23 @@ section.active .aboutContent {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@keyframes enterStageLeft {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes enterStageRight {
+  0% {
+    transform: translateX(1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
 
 .resumeFooter a {

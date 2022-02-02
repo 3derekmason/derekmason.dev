@@ -30,7 +30,7 @@ const Projects = () => {
         <img src={treeBackground} />
         <div className="glass"></div>
         <div className="projectContent">
-          <Grid container spacing={4}>
+          <Grid container spacing={2}>
             {projectData?.map((project, i) => {
               return (
                 <Grid item xs={6} key={i}>

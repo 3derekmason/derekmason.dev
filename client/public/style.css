@@ -419,6 +419,154 @@ section.active .aboutContent {
   color: #212121;
 }
 
+.resumeContent {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  transition: 0.5s;
+  transition-delay: 1s;
+  color: #fff;
+}
+
+.resumeHeader {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2px;
+  animation: resHead 1s;
+}
+
+@keyframes resHead {
+  0% {
+    transform: translateY(-500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.techSkills {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  animation: enterStageLeft 1.2s;
+}
+
+.softwareEngineering {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  animation: enterStageRight 1.4s;
+}
+
+.resCard {
+  width: 60%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 8px;
+  background: rgba(0, 0, 0, 0.05);
+  gap: 16px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.experience {
+  margin-top: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  animation: enterStageLeft 1.6s;
+}
+
+.expCard {
+  width: 64%;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 8px;
+  background: rgba(0, 0, 0, 0.05);
+  gap: 16px;
+}
+
+.education {
+  margin-top: 4px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4px;
+  animation: enterStageRight 1.8s;
+}
+
+.edCard {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@keyframes enterStageLeft {
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@keyframes enterStageRight {
+  0% {
+    transform: translateX(1000px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.resumeFooter {
+  margin-bottom: 24px;
+  text-decoration: none;
+}
+
+.resumeContent a {
+  color: #aaa;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.resumeContent a:hover {
+  color: #fff;
+  transition: 0.2s;
+}
+.resumeHeader a {
+  text-decoration: none;
+  color: #fff;
+}
+.resumeHeader a:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 @media (max-width: 991px) {
   header {
     padding: 20px;

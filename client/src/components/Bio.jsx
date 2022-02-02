@@ -37,9 +37,10 @@ const AboutMe = () => {
           </div>
           <div className="bioText">
             <p>
-              <strong>Hello!</strong> As you saw on the landing page, my name is
-              Derek Mason. I am a colorado native with a passion for problem
-              solving and a strong desire to see everyone around me succeed.
+              <strong>Hello!</strong> As you saw on the landing page,{" "}
+              <strong>my name is Derek Mason</strong>. I am a colorado native
+              with a passion for problem solving and a strong desire to see
+              everyone around me succeed.
             </p>
             <p>
               <strong>Originally my passion</strong> of helping and teaching
@@ -70,6 +71,7 @@ const AboutMe = () => {
               tech stack to play with, however I have an equal love for the
               front and back end of development.
             </p>
+            <br />
             <p>
               Oh! I'm also looking for work!{" "}
               <a href="mailto:3derekmason@gmail.com">Shoot me a message</a> if

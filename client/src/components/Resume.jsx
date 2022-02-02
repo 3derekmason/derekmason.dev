@@ -3,7 +3,7 @@ import treeBackground from "../../public/assets/trees.jpg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
-import { Typography } from "@mui/material";
+import { Button, Typography } from "@mui/material";
 
 import AppContext from "../context.js";
 import Home from "./Home.jsx";
@@ -30,7 +30,7 @@ const Resume = () => {
         <img src={treeBackground} />
         <div className="glass"></div>
         <div className="resumeContent">
-          <div className="resumeHeader">
+          <div className="resumeHeader" id="top">
             <Typography element="h3" variant="h4">
               Derek Mason
             </Typography>
@@ -118,7 +118,7 @@ const Resume = () => {
               <div
                 style={{
                   display: "flex",
-                  justifyContent: "center",
+                  justifyContent: "space-between",
                   alignItems: "center",
                   gap: "4px",
                   marginLeft: "4px",
@@ -381,8 +381,40 @@ const Resume = () => {
               </Typography>
             </div>
           </div>
-          <div className="education"></div>
-          <div className="resumeFooter"></div>
+          <div className="education">
+            <Typography
+              variant="h5"
+              style={{
+                width: "66%",
+                borderBottom: "1px solid #fff",
+                textAlign: "center",
+                textTransform: "uppercase",
+                marginBottom: "2px",
+                letterSpacing: "2px",
+              }}
+            >
+              Education
+            </Typography>
+            <div className="edCard">
+              <Typography variant="button">Hack Reactor</Typography>
+              <Typography variant="caption">
+                Denver, CO <em>2021</em>
+              </Typography>
+            </div>
+            <div className="edCard">
+              <Typography variant="button">
+                Colorado State University
+              </Typography>
+              <Typography variant="caption">
+                Fort Collins, CO <em>2012 - 2017</em>
+              </Typography>
+            </div>
+          </div>
+          <div className="resumeFooter">
+            <Button>
+              <a href="#top">Back to top</a>
+            </Button>
+          </div>
         </div>
       </section>
     </div>

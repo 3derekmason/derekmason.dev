@@ -9,7 +9,6 @@ import projectData from "./projectData.js";
 
 const Projects = () => {
   const { currentView, setCurrentView } = useContext(AppContext);
-  console.log(projectData);
   return (
     <div className="body">
       <section className="active">
@@ -29,6 +28,11 @@ const Projects = () => {
         </header>
         <img src={treeBackground} />
         <div className="glass"></div>
+        <div className="projectContent">
+          {projectData?.map((project, i) => {
+            return <h2 key={i}>{project.title}</h2>;
+          })}
+        </div>
       </section>
     </div>
   );

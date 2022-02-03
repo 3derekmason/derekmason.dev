@@ -32,8 +32,8 @@ const projectData = [
   },
   {
     title: "Help Me Out",
-    imgURL: "./assets/helpss.png",
-    imgURL2: "",
+    imgURL: "./assets/hmo2.png",
+    imgURL2: "./assets/helpss.png",
     subtitle: "Find or offer help in your community",
     summary:
       "HelpMeOut is a job board application created to connect members of the community in a safe, accessible manner. An idea presented by a client, and implemented by a team of developers aiming to provide a premium product that met proposed criteria.",
@@ -43,7 +43,7 @@ const projectData = [
   {
     title: "Project Island Walk",
     imgURL: "./assets/islandss.png",
-    imgURL2: "",
+    imgURL2: "./assets/island2.png",
     subtitle: "UX/UI modernization of a retail website + full API design",
     summary:
       "A project with the mission to modernize an out-of-date web application. Rebranding of an e-commerce website with Overview, Related Items, Custom Outfit, and Ratings and Reviews components for each product.",
@@ -53,7 +53,7 @@ const projectData = [
   {
     title: "Vue View",
     imgURL: "./assets/vueviewss.png",
-    imgURL2: "",
+    imgURL2: "./assets/vv2.png",
     subtitle: "An app to share your great views easily with vue",
     summary:
       "Have you ever wanted to post an image online, but felt hesitant because of the toxicity of social media? Have you ever wanted to design an app using VueJS? VueView is simply an app to share your great views easily with vue. ",

@@ -259,7 +259,10 @@ const Resume = () => {
                   alignItems: "center",
                 }}
               >
-                <Typography variant="BUTTON" style={{ color: "#bbb" }}>
+                <Typography
+                  variant="BUTTON"
+                  style={{ color: "#bbb", marginRight: "8px" }}
+                >
                   <a href="https://stemvp.herokuapp.com/" targe="_blank">
                     SteMVP
                   </a>
@@ -276,7 +279,10 @@ const Resume = () => {
                   alignItems: "center",
                 }}
               >
-                <Typography variant="BUTTON" style={{ color: "#bbb" }}>
+                <Typography
+                  variant="BUTTON"
+                  style={{ color: "#bbb", marginRight: "8px" }}
+                >
                   <a
                     href="https://mytraininglogapp.herokuapp.com/"
                     target="_blank"

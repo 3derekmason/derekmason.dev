@@ -708,7 +708,7 @@ section.active .aboutContent {
     width: 100%;
   }
   .projectCard {
-    height: 50vh;
+    height: fit-content;
     flex-direction: column;
   }
   .cardLeft {
@@ -716,5 +716,8 @@ section.active .aboutContent {
   }
   .cardRight {
     width: 100%;
+  }
+  .cardImg {
+    margin-top: 0px;
   }
 }

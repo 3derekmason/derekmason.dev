@@ -30,11 +30,11 @@ const ProjectCard = (props) => {
             ></img>
           </div>
           <div className="cardButtons" style={{ height: "40%" }}>
-            <Button href={project.code} target="_blank">
+            <Button href={project.code} target="_blank" className="goTo">
               View Code
             </Button>
             {project.deployed ? (
-              <Button href={project.deployed} target="_blank">
+              <Button href={project.deployed} target="_blank" className="goTo">
                 Go to App
               </Button>
             ) : (

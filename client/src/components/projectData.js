@@ -29,7 +29,7 @@ const projectData = [
   },
   {
     title: "Help Me Out",
-    imgURL: "",
+    imgURL: "./assets/helpss.png",
     subtitle: "Find or offer help in your community",
     summary:
       "HelpMeOut is a job board application created to connect members of the community in a safe, accessible manner. An idea presented by a client, and implemented by a team of developers aiming to provide a premium product that met proposed criteria.",
@@ -47,7 +47,7 @@ const projectData = [
   },
   {
     title: "Vue View",
-    imgURL: "",
+    imgURL: "./assets/vueviewss.png",
     subtitle: "An app to share your great views easily with vue",
     summary:
       "Have you ever wanted to post an image online, but felt hesitant because of the toxicity of social media? Have you ever wanted to design an app using VueJS? VueView is simply an app to share your great views easily with vue. ",

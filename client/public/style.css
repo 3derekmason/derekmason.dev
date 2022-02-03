@@ -633,6 +633,12 @@ section.active .aboutContent {
   height: 25%;
   color: #fff;
 }
+.goTo {
+  color: rgb(255, 255, 255);
+}
+.goTo:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
 
 @media (max-width: 991px) {
   header {

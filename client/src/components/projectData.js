@@ -12,7 +12,7 @@ const projectData = [
   {
     title: "SteMVP",
     imgURL: "./assets/stemvpss.png",
-    imgURL2: "",
+    imgURL2: "./assets/STEMVP2.png",
     subtitle:
       "A full scale application for ECE Instructors made in a two day timebox",
     summary:
@@ -23,7 +23,7 @@ const projectData = [
   {
     title: "Css Pizazz",
     imgURL: "./assets/csspss.png",
-    imgURL2: "",
+    imgURL2: "./assets/cssp2.png",
     subtitle: "My playground for css animations",
     summary:
       "Just a little portfolio made with Vue3 to show off some animations I've been playing around with!",

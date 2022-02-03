@@ -1,8 +1,8 @@
 const projectData = [
   {
     title: "My Training Log App",
-    imgURL: "./assets/mtla1.png",
-    imgURL2: "./assets/mtla2.png",
+    imgURL: "./client/public/assets/mtla1.png",
+    imgURL2: "./client/public/assets/mtla2.png",
     subtitle: "A full-stack MERN application for logging user workout stats",
     summary:
       "Over the years, my background as a personal trainer has led me through an assortment of training apps and tinkering with my own preffered methods of logging my own workouts. Since nothing has ever matched exactly what I want, I decided to take things into my own hands...",
@@ -11,8 +11,8 @@ const projectData = [
   },
   {
     title: "SteMVP",
-    imgURL: "./assets/stemvpss.png",
-    imgURL2: "./assets/STEMVP2.png",
+    imgURL: "./client/public/assets/stemvpss.png",
+    imgURL2: "./client/public/assets/STEMVP2.png",
     subtitle:
       "A full scale application for ECE Instructors made in a two day timebox",
     summary:
@@ -22,8 +22,8 @@ const projectData = [
   },
   {
     title: "Css Pizazz",
-    imgURL: "./assets/csspss.png",
-    imgURL2: "./assets/cssp2.png",
+    imgURL: "./client/public/assets/csspss.png",
+    imgURL2: "./client/public/assets/cssp2.png",
     subtitle: "My playground for css animations",
     summary:
       "Just a little portfolio made with Vue3 to show off some animations I've been playing around with!",
@@ -32,8 +32,8 @@ const projectData = [
   },
   {
     title: "Help Me Out",
-    imgURL: "./assets/hmo2.png",
-    imgURL2: "./assets/helpss.png",
+    imgURL: "./client/public/assets/hmo2.png",
+    imgURL2: "./client/public/assets/helpss.png",
     subtitle: "Find or offer help in your community",
     summary:
       "HelpMeOut is a job board application created to connect members of the community in a safe, accessible manner. An idea presented by a client, and implemented by a team of developers aiming to provide a premium product that met proposed criteria.",
@@ -42,8 +42,8 @@ const projectData = [
   },
   {
     title: "Project Island Walk",
-    imgURL: "./assets/islandss.png",
-    imgURL2: "./assets/island2.png",
+    imgURL: "./client/public/assets/islandss.png",
+    imgURL2: "./client/public/assets/island2.png",
     subtitle: "UX/UI modernization of a retail website + full API design",
     summary:
       "A project with the mission to modernize an out-of-date web application. Rebranding of an e-commerce website with Overview, Related Items, Custom Outfit, and Ratings and Reviews components for each product.",
@@ -52,8 +52,8 @@ const projectData = [
   },
   {
     title: "Vue View",
-    imgURL: "./assets/vueviewss.png",
-    imgURL2: "./assets/vv2.png",
+    imgURL: "./client/public/assets/vueviewss.png",
+    imgURL2: "./client/public/assets/vv2.png",
     subtitle: "An app to share your great views easily with vue",
     summary:
       "Have you ever wanted to post an image online, but felt hesitant because of the toxicity of social media? Have you ever wanted to design an app using VueJS? VueView is simply an app to share your great views easily with vue. ",

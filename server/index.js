@@ -6,7 +6,7 @@ const path = require("path");
 const app = express();
 app.use(express.json());
 
-app.use(serveStatic(path.join(__dirname, "../client/public")));
+app.use(serveStatic(path.join(__dirname, "../")));
 
 const server = http.createServer(app);
 server.listen(process.env.PORT || 3333, () => {

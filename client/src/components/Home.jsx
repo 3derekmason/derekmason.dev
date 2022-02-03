@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 
 import treeBackground from "../../public/assets/trees.jpg";
-import logo from "../../public/assets/derekMason.png";
 
 import AppContext from "../context.js";
 import AboutMe from "./Bio.jsx";

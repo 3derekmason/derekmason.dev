@@ -6,7 +6,7 @@ import { Card, Button, Grid, Typography } from "@mui/material";
 const ProjectCard = (props) => {
   const { project } = props;
   return (
-    <div>
+    <div className="cardAnimate">
       <Card
         className="projectCard"
         style={{ background: "rgba(0,0,0,0.2)", color: "#fff" }}

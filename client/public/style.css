@@ -580,13 +580,22 @@ section.active .aboutContent {
   color: #fff;
   margin-top: 160px;
   margin-bottom: 40px;
+  animation: popUp 1.5s;
+}
+@keyframes popUp {
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .projectCard {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 24vw;
+  height: 32vw;
   gap: 24px;
   padding: 16px;
 }
@@ -599,9 +608,11 @@ section.active .aboutContent {
   flex-direction: column;
   gap: 16px;
 }
+
 .cardTitle {
   height: 33%;
   font-family: "Montserrat", sans-serif;
+  margin-bottom: 8px;
 }
 .cardSummary {
   height: 66%;
@@ -615,7 +626,6 @@ section.active .aboutContent {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 8px;
   position: relative;
 }
 
@@ -624,8 +634,9 @@ section.active .aboutContent {
   height: 75%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   overflow: hidden;
+  margin-top: 40px;
 }
 .cardButtons {
   display: flex;

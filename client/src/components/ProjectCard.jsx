@@ -13,13 +13,18 @@ const ProjectCard = (props) => {
       >
         <div className="cardLeft">
           <div className="cardTitle">
-            <Typography variant="h5" style={{ marginBottom: "8px" }}>
+            <Typography
+              variant="h5"
+              style={{ marginBottom: "8px", letterSpacing: "3px" }}
+            >
               {project.title}
             </Typography>
-            <Typography variant="caption">{project.subtitle}</Typography>
+            <Typography variant="caption">
+              <em>{project.subtitle}</em>
+            </Typography>
           </div>
           <div className="cardSummary">
-            <Typography variant="body2">{project.summary}</Typography>
+            <Typography variant="body1">{project.summary}</Typography>
           </div>
         </div>
         <div className="cardRight">
@@ -30,12 +35,16 @@ const ProjectCard = (props) => {
             ></img>
           </div>
           <div className="cardButtons" style={{ height: "40%" }}>
-            <Button href={project.code} target="_blank" className="goTo">
-              View Code
+            <Button>
+              <a href={project.code} target="_blank">
+                View Code
+              </a>
             </Button>
             {project.deployed ? (
-              <Button href={project.deployed} target="_blank" className="goTo">
-                Go to App
+              <Button>
+                <a href={project.deployed} target="_blank">
+                  Go to App
+                </a>
               </Button>
             ) : (
               ""

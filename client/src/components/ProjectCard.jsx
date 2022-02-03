@@ -7,20 +7,36 @@ const ProjectCard = (props) => {
   const { project } = props;
   return (
     <div>
-      <Card>
+      <Card
+        className="projectCard"
+        style={{ background: "rgba(0,0,0,0.2)", color: "#fff" }}
+      >
         <div className="cardLeft">
           <div className="cardTitle">
-            <Typography variant="h3">{project.title}</Typography>
-            <Typography variant="subtitle1">{project.subtitle}</Typography>
+            <Typography variant="h5" style={{ marginBottom: "8px" }}>
+              {project.title}
+            </Typography>
+            <Typography variant="caption">{project.subtitle}</Typography>
           </div>
-          <div className="cardSummary"></div>
+          <div className="cardSummary">
+            <Typography variant="body2">{project.summary}</Typography>
+          </div>
         </div>
         <div className="cardRight">
-          <div className="cardImg"></div>
-          <div className="cardButtons">
-            <Button href={project.code}>View Code</Button>
+          <div className="cardImg" style={{ height: "60%", width: "100%" }}>
+            <img
+              src={project.imgURL}
+              style={{ width: "100%", height: "60%" }}
+            ></img>
+          </div>
+          <div className="cardButtons" style={{ height: "40%" }}>
+            <Button href={project.code} target="_blank">
+              View Code
+            </Button>
             {project.deployed ? (
-              <Button href={project.deployed}>Go to App</Button>
+              <Button href={project.deployed} target="_blank">
+                Go to App
+              </Button>
             ) : (
               ""
             )}

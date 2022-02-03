@@ -33,7 +33,7 @@ const Projects = () => {
           <Grid container spacing={2}>
             {projectData?.map((project, i) => {
               return (
-                <Grid item xs={6} key={i}>
+                <Grid item xs={12} sm={6} key={i}>
                   <ProjectCard project={project} />
                 </Grid>
               );

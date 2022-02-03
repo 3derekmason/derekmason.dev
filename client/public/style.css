@@ -631,19 +631,29 @@ section.active .aboutContent {
 
 .cardImg {
   width: 100%;
-  height: 75%;
+  height: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
   margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  gap: 24px;
 }
+.cardImg img {
+  object-fit: contain;
+  position: relative;
+}
+
 .cardButtons {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 25%;
+  height: 20%;
 }
 .cardButtons a {
   color: #fff;

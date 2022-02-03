@@ -31,10 +31,14 @@ const ProjectCard = (props) => {
           <div className="cardImg" style={{ height: "60%", width: "100%" }}>
             <img
               src={project.imgURL}
-              style={{ width: "100%", height: "60%" }}
+              style={{ width: "100%", height: "40%" }}
+            ></img>
+            <img
+              src={project.imgURL2}
+              style={{ width: "100%", height: "40%" }}
             ></img>
           </div>
-          <div className="cardButtons" style={{ height: "40%" }}>
+          <div className="cardButtons" style={{ height: "20%" }}>
             <Button>
               <a href={project.code} target="_blank">
                 View Code

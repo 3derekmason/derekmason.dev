@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Portfolio Website",
   "main": "index.js",
-  "homepage": "https://3derekmason.github.io/derekmason.dev",
+  "homepage": "www.derekmason.dev",
   "scripts": {
     "start": "nodemon ./server/index.js",
     "build": "webpack --config ./webpack.config.js --mode development -w",
-    "predeploy": "npm run build",
+    "predeploy": "webpack --config ./webpack.config.js --mode production",
     "deploy": "gh-pages -d build"
   },
   "author": "Derek Mason",

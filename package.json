@@ -6,9 +6,9 @@
   "homepage": "www.derekmason.dev",
   "scripts": {
     "start": "nodemon ./server/index.js",
-    "build": "webpack --config ./webpack.config.js --mode development -w",
-    "predeploy": "webpack --config ./webpack.config.js --mode production",
-    "deploy": "gh-pages -b master -d build"
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d client/public"
   },
   "author": "Derek Mason",
   "license": "ISC",
@@ -32,6 +32,7 @@
     "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0",
     "serve-static": "^1.14.2",
     "theme-ui": "^0.13.1",
     "webpack": "^5.65.0",

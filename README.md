@@ -1,5 +1,10 @@
-# derekmason.dev
 
-Portfolio Website
+### Portfolio Website
 
-# Trust the process
+---
+
+![]('./client/public/assets/readme1.png')
+
+---
+
+# [derekmason.dev](https://www.derekmason.dev/)

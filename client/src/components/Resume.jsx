@@ -2,6 +2,7 @@ import React, { useState, useContext } from "react";
 import treeBackground from "../../public/assets/trees.jpg";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import BookIcon from "@mui/icons-material/Book";
 
 import { Button, Typography } from "@mui/material";
 
@@ -56,6 +57,9 @@ const Resume = () => {
               </a>
               <a href="https://www.github.com/3derekmason" target="_blank">
                 <GitHubIcon />
+              </a>
+              <a href="https://www.medium.com/@derekmason" target="_blank">
+                <BookIcon />
               </a>
             </Typography>
           </div>

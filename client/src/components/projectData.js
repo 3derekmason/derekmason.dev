@@ -1,5 +1,27 @@
 const projectData = [
   {
+    title: "Diabetes Management Log",
+    imgURL: "./assets/dml2.png",
+    imgURL2: "./assets/dml1.png",
+    subtitle:
+      "A single page application where diabetics can track their blood sugar levels.",
+    summary:
+      "As a Type 1 Diabetic, I thought it would be fun to make my own glucose log.",
+    deployed: "",
+    code: "https://github.com/3derekmason/diabetes-management-log",
+  },
+  {
+    title: "relativeTimeAgo",
+    imgURL: "./assets/relativeTimeAgo.png",
+    imgURL2: "./assets/rta2.png",
+    subtitle:
+      "A public npm package that returns the time elapsed since a given date",
+    summary:
+      "I wanted to contribute with my own package that I belive can be applied to a number of situations. It got 99 user downloads in the first week!",
+    deployed: "https://www.npmjs.com/package/relative-time-ago",
+    code: "https://github.com/3derekmason/relative-time-ago",
+  },
+  {
     title: "My Training Log App",
     imgURL: "./assets/mtla1.png",
     imgURL2: "./assets/mtla2.png",
@@ -49,16 +71,6 @@ const projectData = [
       "A project with the mission to modernize an out-of-date web application. Rebranding of an e-commerce website with Overview, Related Items, Custom Outfit, and Ratings and Reviews components for each product.",
     deployed: "",
     code: "https://github.com/3derekmason/Project-IslandWalk",
-  },
-  {
-    title: "Vue View",
-    imgURL: "./assets/vueviewss.png",
-    imgURL2: "./assets/vv2.png",
-    subtitle: "An app to share your great views easily with vue",
-    summary:
-      "Have you ever wanted to post an image online, but felt hesitant because of the toxicity of social media? Have you ever wanted to design an app using VueJS? VueView is simply an app to share your great views easily with vue. ",
-    deployed: "",
-    code: "https://github.com/PopSmartInc/VueView",
   },
 ];
 

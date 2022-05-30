@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 
-import treeBackground from "../../public/assets/trees.jpg";
+import treeBackground from "../../public/assets/sangredecristo.JPG";
 
 import AppContext from "../context.js";
 import AboutMe from "./Bio.jsx";

@@ -80,27 +80,20 @@ const Resume = () => {
             <Typography variant="body2">
               Front End |
               <Typography variant="caption" style={{ marginLeft: "2px" }}>
-                JavaScript, NextJS, React, React Router, Redux, Vue, HTML5,
-                CSS3, MaterialUI, ThemeUI
+                JavaScript, React, Redux, NextJS, Svelte, Vue, Vuetify,
+                Bootstrap, MaterialUI
               </Typography>
             </Typography>
             <Typography variant="body2">
               Back End |
               <Typography variant="caption" style={{ marginLeft: "2px" }}>
-                Express, GraphQL, NodeJS, MongoDB, MySQL, PostgreSQL, RESTful
-                API Development
+                NodeJS, Express, PostgreSQL, MongoDB, MySQL, Ruby on Rails
               </Typography>
             </Typography>
             <Typography variant="body2">
-              Testing/Deployment |
+              Testing & Deployment |
               <Typography variant="caption" style={{ marginLeft: "2px" }}>
-                Chai, Cypress, Jest, K6, Mocha, AWS, Docker, Heroku
-              </Typography>
-            </Typography>
-            <Typography variant="body2">
-              Development Tools |
-              <Typography variant="caption" style={{ marginLeft: "2px" }}>
-                Babel, ESLint, Git, npm, Postman, Webpack
+                Jest, Chai, AWS, Heroku, Vercel
               </Typography>
             </Typography>
           </div>
@@ -138,8 +131,8 @@ const Resume = () => {
                 </Typography>
                 <Typography variant="caption">
                   <em>
-                    Full backend system design using MongoDB for 10+ million
-                    entries for a retail website
+                    API design with MongoDB storing over one million entries for
+                    a retail website
                   </em>
                 </Typography>
               </div>
@@ -186,8 +179,8 @@ const Resume = () => {
                 </Typography>
               </div>
               <Typography variant="body2">
-                Collaborated with seven team members to design and build an app
-                according to Client specs
+                Collaborated with team members using agile methods to design and
+                build app according to Client specs
               </Typography>
               <Typography variant="body2">
                 Handled user authentication with PassportJS, developed a
@@ -214,25 +207,23 @@ const Resume = () => {
                   variant="body1"
                   style={{ color: "#bbb", textTransform: "uppercase" }}
                 >
-                  <a href="https://github.com/IslandBois/FEC" target="_blank">
-                    Island Walk
+                  <a
+                    href="https://www.npmjs.com/package/relative-time-ago"
+                    target="_blank"
+                  >
+                    relativeTimeAgo
                   </a>
                 </Typography>
                 <Typography variant="caption">
-                  <em>UX/UI modernization of a retail website</em>
+                  <em>Public npm package for use in blogs/social media etc</em>
                 </Typography>
               </div>
               <Typography variant="body2">
-                Redesigned and implemented a ratings and reviews section to show
-                off product information
+                Built helper function optimized for both performance, edge
+                cases, and readability
               </Typography>
               <Typography variant="body2">
-                Coordinated with team members to determine the most efficient
-                way to reuse and connect React components
-              </Typography>
-              <Typography variant="body2">
-                Utilized Lighthouse testing to bring performance scores from 50
-                to 90, with accessibility, best practices, and SEO scores of 100
+                99 user downloads in first week of release
               </Typography>
             </div>
             <div className="resCard">
@@ -250,10 +241,7 @@ const Resume = () => {
                   variant="caption"
                   style={{ color: "#fff", textTransform: "uppercase" }}
                 >
-                  HONERABLE MENTION
-                </Typography>
-                <Typography variant="caption">
-                  <em>Solo Personal Projects</em>
+                  OTHER FEATURED PROJECTS
                 </Typography>
               </div>
               <div
@@ -267,13 +255,15 @@ const Resume = () => {
                   variant="BUTTON"
                   style={{ color: "#bbb", marginRight: "8px" }}
                 >
-                  <a href="https://stemvp.herokuapp.com/" targe="_blank">
-                    SteMVP
+                  <a
+                    href="https://github.com/3derekmason/diabetes-management-log/"
+                    targe="_blank"
+                  >
+                    Diabetes Management Log
                   </a>
                 </Typography>{" "}
                 <Typography variant="caption">
-                  A full scale application for ECE Instructors made in a two day
-                  timebox with React and PostgreSQL
+                  A blood glucose tracker with custom UI and API
                 </Typography>
               </div>
               <div

@@ -6,9 +6,9 @@
   "homepage": "www.derekmason.dev",
   "scripts": {
     "start": "nodemon ./server/index.js",
-    "build": "webpack --config ./webpack.config.js --mode production",
+    "build": "webpack --config ./webpack.config.js --mode development",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d client/public"
   },
   "author": "Derek Mason",
   "license": "ISC",

@@ -297,6 +297,10 @@ section .navigation li a:hover {
   text-transform: lowercase;
 }
 
+.body {
+  background: linear-gradient(#121212, #212121);
+}
+
 .bioText {
   width: 66vw;
   display: flex;

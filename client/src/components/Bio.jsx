@@ -25,7 +25,7 @@ const AboutMe = () => {
             HOME
           </div>
         </header>
-        <img src={treeBackground} />
+        {/* <img src={treeBackground} /> */}
         <div className="glass"></div>
         <div className="aboutContent">
           <div className="bioTop">

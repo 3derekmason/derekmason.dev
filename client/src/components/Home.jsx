@@ -28,7 +28,7 @@ const Home = () => {
     setCurrentView(<Projects />);
   };
   return (
-    <div className="body">
+    <div className="body" style={{ background: "#212121" }}>
       <section className={sectionClass}>
         <header>
           <a href="#" className="logo">

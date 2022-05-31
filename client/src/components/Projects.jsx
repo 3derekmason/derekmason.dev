@@ -27,7 +27,7 @@ const Projects = () => {
             HOME
           </div>
         </header>
-        <img src={treeBackground} />
+        {/* <img src={treeBackground} /> */}
         <div className="glass"></div>
         <div className="projectContent">
           <Grid container spacing={2}>

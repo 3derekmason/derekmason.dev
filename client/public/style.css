@@ -6,7 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+body {
+  background: linear-gradient(#121212, #212121);
+}
 section {
   position: relative;
   width: 100%;
@@ -295,10 +297,6 @@ section .navigation li a:hover {
   color: #fff;
   background: #212121;
   text-transform: lowercase;
-}
-
-.body {
-  background: linear-gradient(#121212, #212121);
 }
 
 .bioText {

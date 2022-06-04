@@ -1,5 +1,15 @@
 const projectData = [
   {
+    title: "Boop Park",
+    imgURL: "./assets/bplanding.png",
+    imgURL2: "./assets/bpworkout.png",
+    subtitle: "Full stack training app with custom training programs",
+    summary:
+      "Hoops Park is a great little public park Aurora, Colorado. After many visits to play ball and train, I got the idea to create various workouts that anyone could do, anywhere. For instance at a public basketball court...",
+    deployed: "https://boop-park.vercel.app",
+    code: "https://github.com/3derekmason/boop-park",
+  },
+  {
     title: "Diabetes Management Log",
     imgURL: "./assets/dml2.png",
     imgURL2: "./assets/dml1.png",
@@ -17,7 +27,7 @@ const projectData = [
     subtitle:
       "A public npm package that returns the time elapsed since a given date",
     summary:
-      "I wanted to contribute with my own package that I belive can be applied to a number of situations. It got 99 user downloads in the first week!",
+      "I wanted to contribute with my own package that I belive can be applied to a number of situations. It got over 300 user downloads in the first week!",
     deployed: "https://www.npmjs.com/package/relative-time-ago",
     code: "https://github.com/3derekmason/relative-time-ago",
   },

@@ -80,8 +80,8 @@ const Resume = () => {
             <Typography variant="body2">
               Front End |
               <Typography variant="caption" style={{ marginLeft: "2px" }}>
-                JavaScript, React, Redux, NextJS, Svelte, Vue, Vuetify,
-                Bootstrap, MaterialUI
+                JavaScript, NextJS, React, Redux, RedwoodJS, Svelte, Vue,
+                Bootstrap, MaterialUI, Vuetify
               </Typography>
             </Typography>
             <Typography variant="body2">
@@ -165,31 +165,26 @@ const Resume = () => {
                   variant="body1"
                   style={{ color: "#bbb", textTransform: "uppercase" }}
                 >
-                  <a
-                    href="https://github.com/OceansSeven/HelpMeOut"
-                    target="_blank"
-                  >
-                    Help Me Out
+                  <a href="https://boop-park.vercel.app" target="_blank">
+                    Boop Park
                   </a>
                 </Typography>
                 <Typography variant="caption">
-                  <em>
-                    Full scale production of a community centered handyman app
-                  </em>
+                  <em>A full stack training app made with NextJS</em>
                 </Typography>
               </div>
               <Typography variant="body2">
-                Collaborated with team members using agile methods to design and
-                build app according to Client specs
+                Built and deployed full scale app using document driven
+                development and best accessibility practices
               </Typography>
               <Typography variant="body2">
-                Handled user authentication with PassportJS, developed a
-                mobile-first responsive UI, and implemented an in-app messaging
-                server using Socket.io
+                Handled user authentication with bcrypt.js and designed a custom
+                API using ExpressJS and MongoDB
               </Typography>
               <Typography variant="body2">
-                Deployed app using separate T2 micro instances for main server
-                and chat server to optimize scalability
+                Populated public database with 15 personally written and
+                researched training programs intended to improve user’s quality
+                of life
               </Typography>
             </div>
             <div className="resCard">

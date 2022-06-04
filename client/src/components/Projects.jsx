@@ -11,7 +11,7 @@ import { Grid } from "@mui/material";
 const Projects = () => {
   const { currentView, setCurrentView } = useContext(AppContext);
   return (
-    <div className="body">
+    <div className="body" style={{ background: "#212121" }}>
       <section className="active">
         <header>
           <a href="#" className="logo">

@@ -8,6 +8,8 @@ import { Button, Typography } from "@mui/material";
 
 import AppContext from "../context.js";
 import Home from "./Home.jsx";
+import Projects from "./Projects.jsx";
+import Bio from "./Bio.jsx";
 
 const Resume = () => {
   const { currentView, setCurrentView } = useContext(AppContext);
@@ -18,14 +20,34 @@ const Resume = () => {
           <a href="#" className="logo">
             Resume
           </a>
-          <div
-            className="homeBtn"
-            onClick={(e) => {
-              e.preventDefault();
-              setCurrentView(<Home />);
-            }}
-          >
-            HOME
+          <div className="btnRow">
+            <div
+              className="homeBtn"
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentView(<Bio />);
+              }}
+            >
+              ABOUT
+            </div>
+            <div
+              className="homeBtn"
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentView(<Projects />);
+              }}
+            >
+              PROJECTS
+            </div>
+            <div
+              className="homeBtn"
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentView(<Home />);
+              }}
+            >
+              HOME
+            </div>
           </div>
         </header>
         {/* <img src={treeBackground} /> */}

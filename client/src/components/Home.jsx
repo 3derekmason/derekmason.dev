@@ -4,8 +4,8 @@ import treeBackground from "../../public/assets/sangredecristo.JPG";
 
 import AppContext from "../context.js";
 import AboutMe from "./Bio.jsx";
-import Resume from "./Resume.jsx";
 import Projects from "./Projects.jsx";
+import Resume from "./Resume.jsx";
 
 const Home = () => {
   const { currentView, setCurrentView } = useContext(AppContext);

@@ -41,6 +41,15 @@ header .logo {
   transition: 0.5s;
   animation: logoFade 2s;
 }
+header .homeBtn {
+  position: relative;
+}
+header .btnRow {
+  width: 320px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
 @keyframes logoFade {
   0% {
     color: rgba(255, 255, 255, 0);

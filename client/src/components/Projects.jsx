@@ -4,6 +4,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 
 import AppContext from "../context.js";
 import Home from "./Home.jsx";
+import Resume from "./Resume.jsx";
+import Bio from "./Bio.jsx";
 import ProjectCard from "./ProjectCard.jsx";
 import projectData from "./projectData.js";
 import { Grid } from "@mui/material";
@@ -17,14 +19,34 @@ const Projects = () => {
           <a href="#" className="logo">
             My Projects
           </a>
-          <div
-            className="homeBtn"
-            onClick={(e) => {
-              e.preventDefault();
-              setCurrentView(<Home />);
-            }}
-          >
-            HOME
+          <div className="btnRow">
+            <div
+              className="homeBtn"
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentView(<Bio />);
+              }}
+            >
+              ABOUT
+            </div>
+            <div
+              className="homeBtn"
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentView(<Resume />);
+              }}
+            >
+              RESUME
+            </div>
+            <div
+              className="homeBtn"
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentView(<Home />);
+              }}
+            >
+              HOME
+            </div>
           </div>
         </header>
         {/* <img src={treeBackground} /> */}

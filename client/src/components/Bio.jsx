@@ -5,6 +5,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import AppContext from "../context.js";
 import Home from "./Home.jsx";
+import Resume from "./Resume.jsx";
+import Projects from "./Projects.jsx";
 
 const AboutMe = () => {
   const { currentView, setCurrentView } = useContext(AppContext);
@@ -15,14 +17,34 @@ const AboutMe = () => {
           <a href="#" className="logo">
             About Me
           </a>
-          <div
-            className="homeBtn"
-            onClick={(e) => {
-              e.preventDefault();
-              setCurrentView(<Home />);
-            }}
-          >
-            HOME
+          <div className="btnRow">
+            <div
+              className="homeBtn"
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentView(<Resume />);
+              }}
+            >
+              RESUME
+            </div>
+            <div
+              className="homeBtn"
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentView(<Projects />);
+              }}
+            >
+              PROJECTS
+            </div>
+            <div
+              className="homeBtn"
+              onClick={(e) => {
+                e.preventDefault();
+                setCurrentView(<Home />);
+              }}
+            >
+              HOME
+            </div>
           </div>
         </header>
         {/* <img src={treeBackground} /> */}

@@ -1,9 +1,11 @@
 
 # derekmason.dev
-### By Derek Mason
----
 
-# [derekmason.dev](https://www.derekmason.dev/)
+
+### By Derek Mason
+
+
+---
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=3derekmason)](https://github.com/anuraghazra/github-readme-stats&theme=cobalt)
 

@@ -1,7 +1,6 @@
 
 # derekmason.dev
-### By Derek Mason _(the dev)_
-
+### By Derek Mason
 ---
 
 # [derekmason.dev](https://www.derekmason.dev/)

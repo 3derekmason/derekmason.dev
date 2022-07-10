@@ -3,6 +3,7 @@ import React, { useState, useContext } from "react";
 import treeBackground from "../../public/assets/sangredecristo.JPG";
 
 import AppContext from "../context.js";
+import Hello from "./tilt/Hello.jsx";
 import AboutMe from "./Bio.jsx";
 import Projects from "./Projects.jsx";
 import Resume from "./Resume.jsx";
@@ -32,7 +33,7 @@ const Home = () => {
       <section className={sectionClass}>
         <header>
           <a href="#" className="logo">
-            Derek Mason
+            Hi there!
           </a>
           <div className={toggleClass} onClick={toggleMenu}></div>
         </header>
@@ -71,10 +72,11 @@ const Home = () => {
         </ul>
         <div className="glass"></div>
         <div className="content">
-          <h2>
+          {/* <h2>
             Hi there! <br />
             <span>My name is Derek.</span>
-          </h2>
+          </h2> */}
+          <Hello />
         </div>
       </section>
     </div>

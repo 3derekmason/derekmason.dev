@@ -1,5 +1,25 @@
 const projectData = [
   {
+    title: "Vuedoku",
+    imgURL: "./assets/vuedoku1.png",
+    imgURL2: "./assets/vuedoku2.png",
+    subtitle: "Build a Sudoku app with Vue!",
+    summary:
+      "A three part Medium story in which we build tests, app UI, and app UX for a playable sudoku puzzle app from scratch.",
+    deployed: "https://vuedoku.vercel.app",
+    code: "https://github.com/3derekmason/vuedoku",
+  },
+  {
+    title: "Ddocumentation",
+    imgURL: "./assets/ddocs1.png",
+    imgURL2: "./assets/ddocs2.png",
+    subtitle: "Documentation website built with RedwoodJS",
+    summary:
+      "I wanted to host all of my public packages in one place. All package information, source code, and downloads are available.",
+    deployed: "https://ddocumentation.netlify.app",
+    code: "https://github.com/3derekmason/d_docs",
+  },
+  {
     title: "Boop Park",
     imgURL: "./assets/bplanding.png",
     imgURL2: "./assets/bpworkout.png",
@@ -20,17 +40,7 @@ const projectData = [
     deployed: "",
     code: "https://github.com/3derekmason/diabetes-management-log",
   },
-  {
-    title: "relativeTimeAgo",
-    imgURL: "./assets/relativeTimeAgo.png",
-    imgURL2: "./assets/rta2.png",
-    subtitle:
-      "A public npm package that returns the time elapsed since a given date",
-    summary:
-      "I wanted to contribute with my own package that I belive can be applied to a number of situations. It got over 300 user downloads in the first week!",
-    deployed: "https://www.npmjs.com/package/relative-time-ago",
-    code: "https://github.com/3derekmason/relative-time-ago",
-  },
+
   {
     title: "My Training Log App",
     imgURL: "./assets/mtla1.png",

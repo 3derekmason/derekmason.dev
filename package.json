@@ -6,7 +6,7 @@
   "homepage": "www.derekmason.dev",
   "scripts": {
     "start": "nodemon ./server/index.js",
-    "build": "webpack --config ./webpack.config.js --mode development -w",
+    "build": "webpack --config ./webpack.config.js --mode development",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d client/public"
   },

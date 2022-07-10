@@ -187,26 +187,29 @@ const Resume = () => {
                   variant="body1"
                   style={{ color: "#bbb", textTransform: "uppercase" }}
                 >
-                  <a href="https://boop-park.vercel.app" target="_blank">
-                    Boop Park
+                  <a href="https://vuedoku.vercel.app" target="_blank">
+                    Vuedoku
                   </a>
                 </Typography>
                 <Typography variant="caption">
-                  <em>A full stack training app made with NextJS</em>
+                  <em>
+                    Build a Sukdoku app with Vue!{" "}
+                    <a href="" target="_blank">
+                      Read on Medium
+                    </a>
+                  </em>
                 </Typography>
               </div>
               <Typography variant="body2">
-                Built and deployed full scale app using document driven
-                development and best accessibility practices
+                Built and deployed playable app with Vite, using test driven
+                development
               </Typography>
               <Typography variant="body2">
-                Handled user authentication with bcrypt.js and designed a custom
-                API using ExpressJS and MongoDB
+                Documented with step by step instructions in three{" "}
+                <strong>Medium</strong> stories
               </Typography>
               <Typography variant="body2">
-                Populated public database with 15 personally written and
-                researched training programs intended to improve user’s quality
-                of life
+                Walks users through testing, building app logic, UI, and UX
               </Typography>
             </div>
             <div className="resCard">
@@ -224,23 +227,21 @@ const Resume = () => {
                   variant="body1"
                   style={{ color: "#bbb", textTransform: "uppercase" }}
                 >
-                  <a
-                    href="https://www.npmjs.com/package/relative-time-ago"
-                    target="_blank"
-                  >
-                    relativeTimeAgo
+                  <a href="ddocumentation.netlify.app" target="_blank">
+                    Ddocumentation
                   </a>
                 </Typography>
                 <Typography variant="caption">
-                  <em>Public npm package for use in blogs/social media etc</em>
+                  <em>Personal documentation website for public packages</em>
                 </Typography>
               </div>
               <Typography variant="body2">
-                Built helper function optimized for both performance, edge
-                cases, and readability
+                Built full stack app integrating Typescript, React, GraphQL, and
+                Postgresql
               </Typography>
               <Typography variant="body2">
-                99 user downloads in first week of release
+                Hosted documentation of work I’ve published to open source
+                libraries, showing off hundreds of weekly user downloads
               </Typography>
             </div>
             <div className="resCard">
@@ -294,15 +295,12 @@ const Resume = () => {
                   variant="BUTTON"
                   style={{ color: "#bbb", marginRight: "8px" }}
                 >
-                  <a
-                    href="https://mytraininglogapp.herokuapp.com/"
-                    target="_blank"
-                  >
-                    MyTrainingLogApp
+                  <a href="https://boop-park.vercel.app/" target="_blank">
+                    Boop Park
                   </a>
                 </Typography>{" "}
                 <Typography variant="caption">
-                  A full-stack MERN application for logging user workout stats
+                  A full stack training app made with NextJS
                 </Typography>
               </div>
             </div>
